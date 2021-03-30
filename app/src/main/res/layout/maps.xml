@@ -2,14 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/newloc_g"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/relCo">
-
+        android:layout_height="match_parent">
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/back_gradient" />
         <include
             android:id="@+id/inc"
             layout="@layout/activity_maps"
@@ -27,7 +32,7 @@
             android:padding="10sp"
             android:text="hello this is the default @string/common_google_play_services_api_unavailable_text"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/darktext"
             android:textSize="20sp" />
     </RelativeLayout>
 </LinearLayout>

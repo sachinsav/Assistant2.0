@@ -2,14 +2,31 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/tel_g">
+    >
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/relCo"
         android:padding="15sp">
-
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/back_gradient" />
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Phone Module: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/darktext"
+            android:visibility="gone"
+            android:textSize="30sp" />
         <TextView
             android:id="@+id/textViewShowPhone"
             android:layout_width="wrap_content"
@@ -18,7 +35,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="70dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/white"
+            android:textColor="@color/darktext"
             android:textSize="20dp" />
 
         <ImageButton

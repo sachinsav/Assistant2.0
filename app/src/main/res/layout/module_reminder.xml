@@ -3,12 +3,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/reminder_g">
-
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/back_gradient" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/relCo">
+        >
 
         <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
@@ -27,79 +34,79 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Year"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_year"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Month"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_month"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Hour"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_hour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Minutes"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_minutes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tittle"
-                android:textColor="@color/white"
+                android:textColor="@color/darktext"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/et_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/darktext" />
 
             <Button
                 android:id="@+id/set"
